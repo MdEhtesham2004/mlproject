@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Predictor</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Student Performance Predictor</div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Predict and Track Student Performance</h1>
+            <p>Get insights into your academic progress with our AI-powered prediction tool.</p>
+            <a href="{{ url_for('predict') }}" class="cta-btn">Start Predicting</a>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="Home">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="../static/images/confused.png" alt="Upload">
+                <h3>Step 1</h3>
+                <p>Upload your data (e.g., past scores, attendance).</p>
+            </div>
+            <div class="step">
+                <img src="../static/images/laptop.png" alt="Analyze">
+                <h3>Step 2</h3>
+                <p>AI model analyzes your data to make predictions.</p>
+            </div>
+            <div class="step">
+                <img src="../static/images/recommendations.png" alt="Predict">
+                <h3>Step 3</h3>
+                <p>Receive personalized predictions and recommendations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="About">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>AI-Powered Predictions</li>
+            <li>Interactive Dashboard</li>
+            <li>User-Friendly Interface</li>
+            <li>Secure Data Handling</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="Contact">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"This tool has greatly helped me understand my strengths and areas for improvement!"</p>
+                <cite>- Jane Doe, Student</cite>
+            </div>
+            <div class="testimonial">
+                <p>"As a teacher, I can now track my students' progress more accurately." </p>
+                <cite>- John Smith, Teacher</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="../static/images/confused.png" alt="Facebook"></a>
+            <a href="#"><img src="../static/images/laptop.png" alt="Twitter"></a>
+            <a href="#"><img src="../static/images/recommendations.png" alt="LinkedIn"></a>
+        </div>
+        <p>© 2025 Student Performance Predictor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
