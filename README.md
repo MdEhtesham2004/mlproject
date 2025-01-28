@@ -88,16 +88,3 @@ project_root/
 2. Input the required categorical and numeric features.
 3. Click the **Submit** button to see the predicted performance.
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix.
-3. Submit a pull request with a clear description of your changes.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contact
-For any queries or support, please contact:
-- **Email**: your.email@example.com
-- **GitHub**: [your-github-handle](https://github.com/your-github-handle)
-
