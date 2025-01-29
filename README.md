@@ -23,7 +23,9 @@ The **Student Performance Predictor** is a web-based application designed to pre
 project_root/
 |├── src/
 |   |├── components/
+|       ||——— __init__
 |   |   |├── data_ingestion.py
+        ||——— data_transformation 
 |   |   |├── model_trainer.py
 |   |├── utils/
 |   |   |├── helper_functions.py
